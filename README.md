@@ -1,0 +1,1 @@
+This app is made in React with the help of Jitsi Meet Api.
