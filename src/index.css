@@ -1,0 +1,91 @@
+
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background: rgb(40, 90, 155);
+  color: white;
+}
+.form{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  
+}
+input{
+  margin: 7px;
+  height: 5vh;
+}
+button{
+  height: 6vh;
+  margin: auto;
+  margin-top: 10px;
+  background-color: rgb(91, 151, 79);
+  color: white;
+  border: 0;
+  border-radius: 2px;
+  padding: 10px;
+  
+}
+.nav-links{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+li{
+  margin: auto;
+  padding: 5px 0;
+  text-decoration: none;
+}
+.footer{
+  display: flex;
+  background-color: rgb(45, 67, 87);
+  margin-top: auto;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.main{
+  height: 72vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.heading{
+  display: flex;
+  height: 10vh;
+  align-items: center;
+}
+.jutsu{
+  display: flex;
+  margin-left: 50vh;
+  height: 70vh;
+  align-items: center;
+}
+a{
+  color: white;
+}
+.here{
+  color: black;
+  font-weight: bold;
+}
+a:hover{
+  color: rgb(40, 170, 164);
+}
+.texts{
+  width: 70vh;
+}
